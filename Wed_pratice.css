@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#section {
+    background-color: gray;
+    border: 5px solid gray;
+    border-radius: 20px 20px 0 0;
+    width: 400px;
+    height: 500px;
+    margin-bottom: 60px;
+}
+.header_bar {
+    height: 50px;
+    display:flex;
+    align-items: center;
+}
+
+section .circle {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    margin-left: 5px;
+} 
+.C1 {
+    background-color: red;
+}
+.C2 {
+    background-color: yellow;
+} 
+.C3 {
+    background-color: green;
+}
+/*section1*/
+.container {
+    background-color: white;
+    height: 450px;
+}
+.container1 {
+   display: flex;
+   color: white;
+   justify-content: space-between;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+.box-group {
+    display: flex;
+}
+.box2 {
+    margin-right: 5px;
+}
+/*section2*/
+.container2 {
+    flex-direction: column;
+    color: white;
+    position: relative;
+}
+.box-center {
+    position: absolute;
+    left: 150px;
+}
+.box-right {
+    align-self: flex-end;
+    position: absolute;
+    right: 0px;
+    top: 200px;
+}
+/*section3*/
+.container3 {
+    display: flex;
+    justify-content: center;
+    color: white; 
+}
+.box-father {
+    position: relative;
+    background-color: grey;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+.box-child {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+/*section4*/
+.container4 {
+    position: relative;
+}
+.box-below {
+    background-color: teal;
+    width: 100px;
+    height: 100px;
+}
+.box-above {
+    background-color: tomato;
+    width: 100px;
+    height: 100px; 
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+
+
+
+
